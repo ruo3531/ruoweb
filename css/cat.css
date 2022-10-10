@@ -68,8 +68,19 @@ h1{
     height: 150px;
     margin: 10px;
     border-radius: 90%;
-    border:5px #b0b0b0cd double;;
+    border:5px #b0b0b0cd double;
+    transform:scale(1,1);
+    transition: all 1s ease-out;
+    /*transform:scale(1.2,1.2);*/
+    /*animation-name: MouseCat;   
+    animation-duration: 12s;    
+    animation-delay: 0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;*/
+
 }
+.Cat img:hover{transform:scale(1.2,1.2);}
 @keyframes MoveCloud{
     from{
         left: -20%;
@@ -77,5 +88,8 @@ h1{
     to{
         left: 120%;
     }
+}
+@keyframes MouseCat{
+
 }
 
