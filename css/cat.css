@@ -1,0 +1,81 @@
+body{
+    background-color: #c2d8ff;
+    font-family: 'Caveat';  
+    overflow:hidden; 
+}
+
+h1{
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 60%;
+}
+
+.cloud{
+    position: absolute;
+    left: -20%;
+    top: 30%;
+    animation-name: MoveCloud;   
+    animation-duration: 12s;    
+    animation-delay: 0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;
+}
+.cloud img{
+    width: 200px;
+    height: 200px;
+}
+.c2{
+    position: absolute;
+    top: 55%;
+    animation-delay: 1s;
+    animation-duration: 13s;
+    animation-direction: alternate-reverse;
+}
+.c3{
+    position: absolute;
+    top: 70%;
+    animation-delay: 2s;
+    animation-duration: 14s;
+    animation-direction: alternate;
+}
+.c4{
+    position: absolute;
+    top: 45%;
+    animation-delay: 5s;
+    animation-duration: 15s;
+    animation-direction: alternate;
+}
+
+.Cat{
+    /*background-color: rgba(255, 255, 255, 0.6);*/
+    width: 1000px;
+    height: 530px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.Cat img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 90%;
+    border:5px #b0b0b0cd double;;
+}
+@keyframes MoveCloud{
+    from{
+        left: -20%;
+    }
+    to{
+        left: 120%;
+    }
+}
+

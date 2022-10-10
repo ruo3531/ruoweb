@@ -1,0 +1,106 @@
+body{
+    background-color: #c2d8ff;
+    font-family: 'Caveat';  
+    overflow: hidden;
+}
+
+h1{
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    border:5px #000000 double;
+    border-radius: 60%;
+}
+.List{
+    background-color: rgba(255,255,255,0.8);
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    left: 34.5%;
+    top: 20%;
+    border:5px #000000 double;
+    border-radius: 10px;
+}
+#Tittle{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 1%;
+    font-size: 60px;
+    text-align: center;
+}
+.Change{
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    font-size: 50px;
+}
+.meme img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+#webmeme{
+    width: 300px;
+    font-size: 50px;
+    font-family: 'Caveat';
+    background-color: rgba(220, 231, 252, 1);
+    border-radius: 10px;
+    margin: 5px;
+}
+.cloud{
+    position: absolute;
+    left: -20%;
+    top: 30%;
+    animation-name: MoveCloud;   
+    animation-duration: 12s;    
+    animation-delay: 0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;
+}
+.cloud img{
+    width: 200px;
+    height: 200px;
+}
+.c2{
+    position: absolute;
+    top: 55%;
+    animation-delay: 1s;
+    animation-duration: 13s;
+    animation-direction: alternate-reverse;
+}
+.c3{
+    position: absolute;
+    top: 70%;
+    animation-delay: 2s;
+    animation-duration: 14s;
+    animation-direction: alternate;
+}
+.c4{
+    position: absolute;
+    top: 45%;
+    animation-delay: 5s;
+    animation-duration: 15s;
+    animation-direction: alternate;
+}
+
+@keyframes MoveCloud{
+    from{
+        left: -20%;
+    }
+    to{
+        left: 120%;
+    }
+}
+

@@ -1,0 +1,124 @@
+body{
+    background-color: #c2d8ff;
+    font-family: 'Caveat';  
+    overflow:hidden; 
+}
+.Text{    font-size: 25px;
+    padding: 5px;
+}
+.chText{
+    /* font-size: 25px; */
+    display: block;
+    margin: 20px,5px;
+}
+h1{
+    font-family: 'Silkscreen';
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    margin: 10px;
+}
+#otherpages{
+    background-color: rgba(255, 255, 255, 1);
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    border:5px #000000 double;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    color: ;
+
+}
+.List{
+    background-color: rgba(255, 255, 255, 1);
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    padding :5px, 0px, 0px,10px;
+    margin: 5px;
+    border:5px #000000 double;
+}
+.cloud{
+    position: absolute;
+    left: -20%;
+    top: 30%;
+    animation-name: MoveCloud;   
+    animation-duration: 12s;    
+    animation-delay: 0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;
+}
+.cloud img{
+    width: 200px;
+    height: 200px;
+}
+.c2{
+    position: absolute;
+    top: 55%;
+    animation-delay: 1s;
+    animation-duration: 13s;
+    animation-direction: alternate-reverse;
+}
+.c3{
+    position: absolute;
+    top: 70%;
+    animation-delay: 2s;
+    animation-duration: 14s;
+    animation-direction: alternate;
+}
+.c4{
+    position: absolute;
+    top: 45%;
+    animation-delay: 5s;
+    animation-duration: 15s;
+    animation-direction: alternate;
+}
+#Output{
+    background-color: rgba(255, 255, 255, 1);
+    width: 500px;
+    height: 200px;
+    border:5px #000000 double;
+    padding: auto;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    top:60%;
+    left: 35%;
+}
+#cat{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position:absolute;
+    left: 55%;
+    top: 20%;
+    border:5px #000000 double;
+    
+    animation-name: MoveCat;   
+    animation-duration: 2s;    
+    animation-delay: 0s; 
+    animation-iteration-count: infinite; 
+
+}
+@keyframes MoveCat{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+@keyframes MoveCloud{
+    from{
+        left: -20%;
+    }
+    to{
+        left: 120%;
+    }
+}
