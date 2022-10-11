@@ -18,10 +18,24 @@ h1{
     border:5px #b0b0b0cd double;
 }
 
+.sun{
+    position: absolute;
+    left: 65%;
+    top: -10%;
+    animation-name: MoveCat;   
+    animation-duration: 15s;    
+    animation-delay: 0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.sun img{
+    width: 500px;
+    height: 500px;
+}
 .cloud{
     position: absolute;
     left: -20%;
-    top: 30%;
+    top: 35%;
     animation-name: MoveCloud;   
     animation-duration: 12s;    
     animation-delay: 0s; 
@@ -35,7 +49,7 @@ h1{
 }
 .c2{
     position: absolute;
-    top: 55%;
+    top: 25%;
     animation-delay: 1s;
     animation-duration: 13s;
     animation-direction: alternate-reverse;
@@ -49,10 +63,17 @@ h1{
 }
 .c4{
     position: absolute;
-    top: 45%;
+    top: 55%;
     animation-delay: 5s;
     animation-duration: 15s;
     animation-direction: alternate;
+}
+.c5{
+    position: absolute;
+    top: 47%;
+    animation-delay: 3s;
+    animation-duration: 15s;
+    animation-direction: alternate-reverse;
 }
 
 .Cat{
@@ -70,7 +91,7 @@ h1{
     margin: 10px;
     border-radius: 90%;
     border:5px #b0b0b0cd double;
-    transform:scale(1,1);
+    /* transform:scale(1,1); */
     transition: all 1s ease-out;
 }
 .Cat img:hover{transform:scale(1.2,1.2);}
@@ -81,6 +102,14 @@ h1{
     }
     to{
         left: 120%;
+    }
+}
+@keyframes MoveCat{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
     }
 }
 
