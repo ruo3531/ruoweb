@@ -112,7 +112,7 @@ h1{
     position: absolute;
     top: 47%;
     animation-delay: 3s;
-    animation-duration: 15s;
+    animation-duration: 16s;
     animation-direction: alternate-reverse;
 }
 @keyframes MoveCat{
