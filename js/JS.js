@@ -27,7 +27,7 @@ function CreateDiv(x, y, text){
 
 $(document).ready(function(){
     $(".Main").mousedown(function(e){
-        var arr = ["HaHa", "Hello", "Hi", "Meow", "? ? ?", "QAQ", "OwO","! ! !", "QwQ","OAO", "?!?!?!","Ya!"]
+        var arr = ["HaHa", "Hello", "Hi", "Meow", "? ? ?", "QAQ", "OwO","! ! !", "QwQ","OAO", "?!?!?!","YA!"]
         if(e.which == 1){
             var now = $(".Main")
             var x = e.pageX - now.offset().left;
