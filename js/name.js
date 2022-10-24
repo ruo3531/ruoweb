@@ -24,7 +24,6 @@ $(document).ready(function(){
         var N = $("#name").val();
         $("#Output").html("Hi !"+ N);
         $("#name").val("");
-        console.log(t);
     })
     GetTime();
     setInterval("GetTime()",1000);
