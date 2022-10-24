@@ -22,7 +22,7 @@ function GetTime(){
 $(document).ready(function(){
     $("#btn").click(function(){
         var N = $("#name").val();
-        $("#Output").text("Hi !"+ N);
+        $("#Output").html("Hi !"+ N);
         $("#name").val("");
         console.log(t);
     })
